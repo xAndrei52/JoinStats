@@ -14,7 +14,7 @@ use jojoe777\FormAPI\SimpleForm;
 class Main extends PluginBase implements Listener {
 	 public function onEnable(){
 		 $this->getServer()->getPluginManager()->registerEvents($this, $this);
-		 $this->getLogger()->Info(C::GREEN. "JoinStats Enabled!";
+		 $this->getLogger()->Info(C::GREEN. ("JoinStats Enabled!");
      }
      
      public function onJoin(PlayerJoinEvent $event){
