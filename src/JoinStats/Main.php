@@ -14,7 +14,7 @@ use jojoe777\FormAPI\SimpleForm;
 class Main extends PluginBase implements Listener {
 	 public function onEnable(){
 		 $this->getServer()->getPluginManager()->registerEvents($this, $this);
-		 $this->getLogger()->Info(C::GREEN. "JoinStats Enabled!";
+		 $this->getLogger()->Info(C::GREEN. ("JoinStats Enabled!");
      }
      
      public function onJoin(PlayerJoinEvent $event){
@@ -40,7 +40,7 @@ class Main extends PluginBase implements Listener {
             
             
             });
-            $form->setTitle("§l§eKP§bPE")
+            $form->setTitle("§l§eKP§bPE");
             $player = $sender->getName();
             $form->setContent("§rHi, §3$player! §bWelcome to §cour amazing server!\n§cSo you need to be respectful \n §6And to be, \n§eClick on Rules!");
             $form->addButton("§o§eRules");
