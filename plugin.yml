@@ -1,0 +1,5 @@
+name: JoinStats
+main: JoinStats\Main
+api: [3.0.0, 3.11.1, 3.11.3, 3.11.4, 3.11.5]
+version: 1.0
+description: A simple UI Stats about news of server, etc. when a player joins!
