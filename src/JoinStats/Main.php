@@ -40,7 +40,7 @@ class Main extends PluginBase implements Listener {
             
             
             });
-            $form->setTitle("§l§eKP§bPE")
+            $form->setTitle("§l§eKP§bPE");
             $player = $sender->getName();
             $form->setContent("§rHi, §3$player! §bWelcome to §cour amazing server!\n§cSo you need to be respectful \n §6And to be, \n§eClick on Rules!");
             $form->addButton("§o§eRules");
